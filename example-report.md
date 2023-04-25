@@ -6,12 +6,12 @@ target language: de
 # --> Testseiten
 # --> E-Commerce-Schulungsseite
 ## --> Top-Artikel, die gerade verschrottet werden
-#### --> $1333,00
-#### --> Apple MacBook Pr...
-#### --> 233,99 $
-#### --> Galaxy Tab 4
-#### --> 320,99 $
-#### --> MeMo PAD FHD 10
+#### --> $1178,19
+#### --> Dell Latitude 55...
+#### --> 899,99 $
+#### --> Iphone
+#### --> 399,99 $
+#### --> Galaxy Note
   --> link to <a>https://webscraper.io/</a>
   # --> Webdatenextraktion einfach und für jedermann zugänglich machen
   ## --> Point-and-Click-Oberfläche
@@ -33,12 +33,12 @@ target language: de
   # --> Testseiten
   # --> E-Commerce-Schulungsseite
   ## --> Top-Artikel, die gerade verschrottet werden
-  #### --> $1333,00
-  #### --> Apple MacBook Pr...
-  #### --> 233,99 $
-  #### --> Galaxy Tab 4
-  #### --> 320,99 $
-  #### --> MeMo PAD FHD 10
+  #### --> $1178,19
+  #### --> Dell Latitude 55...
+  #### --> 899,99 $
+  #### --> Iphone
+  #### --> 399,99 $
+  #### --> Galaxy Note
   --> link to <a>https://webscraper.io/cloud-scraper</a>
   # --> Automatisieren Sie die Datenextraktion mit Web Scraper Cloud
   ## --> Top-Lösungen
@@ -113,12 +113,12 @@ target language: de
   # --> Testseiten
   # --> E-Commerce-Schulungsseite
   ## --> Top-Artikel, die gerade verschrottet werden
-  #### --> $1333,00
-  #### --> Apple MacBook Pr...
-  #### --> 233,99 $
-  #### --> Galaxy Tab 4
-  #### --> 320,99 $
-  #### --> MeMo PAD FHD 10
+  #### --> $1178,19
+  #### --> Dell Latitude 55...
+  #### --> 899,99 $
+  #### --> Iphone
+  #### --> 399,99 $
+  #### --> Galaxy Note
   --> link to <a>https://webscraper.io/documentation</a>
   # --> Dokumentation
   # --> Installation
@@ -152,45 +152,45 @@ target language: de
   # --> Testseiten
   # --> E-Commerce-Schulungsseite
   ## --> Top-Artikel, die gerade verschrottet werden
-  #### --> $1333,00
-  #### --> Apple MacBook Pr...
-  #### --> 233,99 $
-  #### --> Galaxy Tab 4
-  #### --> 320,99 $
-  #### --> MeMo PAD FHD 10
+  #### --> $1178,19
+  #### --> Dell Latitude 55...
+  #### --> 899,99 $
+  #### --> Iphone
+  #### --> 399,99 $
+  #### --> Galaxy Note
   --> link to <a>https://cloud.webscraper.io/</a>
   --> link to <a>https://webscraper.io/test-sites/e-commerce/allinone/phones</a>
   # --> Testseiten
   # --> Kategorie Telefone
   ## --> Top-Artikel, die gerade verschrottet werden
-  #### --> 899,99 $
-  #### --> Iphone
-  #### --> 24,99 $
-  #### --> Nokia 123
   #### --> 499,99 $
   #### --> Freie Kante
+  #### --> 118,99 $
+  #### --> Sony Xperia
+  #### --> 899,99 $
+  #### --> Iphone
   --> link to <a>https://webscraper.io/test-sites/e-commerce/allinone/computers</a>
   # --> Testseiten
   # --> Kategorie Computer
   ## --> Top-Artikel, die gerade verschrottet werden
-  #### --> $1133,91
-  #### --> Lenovo Legion Y5...
-  #### --> 97,99 $
-  #### --> Galaxy Tab 3
-  #### --> $1033,99
-  #### --> Think Pad Yoga
-  --> link to <a>https://webscraper.io/test-sites/e-commerce/allinone/product/623</a>
+  #### --> 364,46 $
+  #### --> Hewlett Packard...
+  #### --> $1311,99
+  #### --> ThinkPad X240
+  #### --> 484,23 $
+  #### --> Lenovo V510 Schwarz...
+  --> link to <a>https://webscraper.io/test-sites/e-commerce/allinone/product/602</a>
   # --> Testseiten
-  #### --> $1333,00
-  #### --> Apple MacBook Pro 13&quot; Spacegrau
-  --> link to <a>https://webscraper.io/test-sites/e-commerce/allinone/product/506</a>
+  #### --> $1178,19
+  #### --> Dell Latitude 5580
+  --> link to <a>https://webscraper.io/test-sites/e-commerce/allinone/product/493</a>
   # --> Testseiten
-  #### --> 233,99 $
-  #### --> Galaxy Tab 4
-  --> link to <a>https://webscraper.io/test-sites/e-commerce/allinone/product/510</a>
+  #### --> 899,99 $
+  #### --> Iphone
+  --> link to <a>https://webscraper.io/test-sites/e-commerce/allinone/product/514</a>
   # --> Testseiten
-  #### --> 320,99 $
-  #### --> MeMo PAD FHD 10
+  #### --> 399,99 $
+  #### --> Galaxy Note
   --> link to <a>https://webscraper.io/about-us</a>
   # --> Über uns
   ### --> Unsere Geschichte
