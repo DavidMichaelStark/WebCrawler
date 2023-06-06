@@ -1,6 +1,6 @@
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import org.jsoup.nodes.Element;
@@ -10,59 +10,50 @@ import org.jsoup.nodes.Element;
  * translated headings during the web crawling process.
  */
 public class ReportGenerator {
-
-    private List<String> lines;
-
-    public ReportGenerator() {
-        lines = new ArrayList<>();
-    }
+    private final List<String> lines = new ArrayList<>();
 
     public void addInputURL(String url) {
-        addLine("input: <a>" + url + "</a>");
+        lines.add(String.format("input: <a>%s</a>", url));
     }
 
     public void addDepth(int depth) {
-        addLine("depth: " + depth);
+        lines.add("depth: " + depth);
     }
 
     public void addSourceLanguage(String sourceLanguage) {
-        addLine("source language: " + sourceLanguage);
+        lines.add("source language: " + sourceLanguage);
     }
 
     public void addTargetLanguage(String targetLanguage) {
-        addLine("target language: " + targetLanguage);
+        lines.add("target language: " + targetLanguage);
     }
 
     public void addURLVisited(String url, String indentation) {
-        addLine(indentation + "--> link to <a>" + url + "</a>");
+        lines.add(indentation + "--> link to <a>" + url + "</a>");
     }
 
     public void addTranslatedHeading(Element heading, String translatedText, String indentation) {
-        String headingSymbols = "#".repeat(Integer.parseInt(heading.tagName().substring(1)));
-        addLine(indentation + headingSymbols + " --> " + translatedText);
+        String headingSymbols = "#".repeat(DocumentUtils.getHeadingLevel(heading));
+        lines.add(indentation + headingSymbols + " --> " + translatedText);
     }
 
     public void addBrokenLink(String url, String indentation) {
-        addLine(indentation + "Error: Broken link <a>" + url + "</a>");
+        lines.add(indentation + "Error: Broken link <a>" + url + "</a>");
     }
 
     public void saveToFile(String filePath) {
         try {
-            FileWriter fileWriter = new FileWriter(new File(filePath));
-            for (String line : lines) {
-                fileWriter.write(line + System.lineSeparator());
-            }
-            fileWriter.close();
+            Files.write(Paths.get(filePath), lines);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    private void addLine(String line) {
-        lines.add(line);
-    }
-
     public List<String> getLines() {
         return lines;
+    }
+
+    public void merge(ReportGenerator other) {
+        lines.addAll(other.getLines());
     }
 }
