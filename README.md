@@ -15,7 +15,7 @@ This project is a simple web crawler that extracts headings from websites and tr
 ## Running the Application
 1. Open the Main class in your IDE.
 2. Run the main method.
-3. Input the URL, depth, and target language when prompted.
+3. Input the URLs that are split by a comma, depth, and target language when prompted.
 4. After the crawl is completed, you will find the generated report in the example-report.md file.
 
 ## Running Tests
